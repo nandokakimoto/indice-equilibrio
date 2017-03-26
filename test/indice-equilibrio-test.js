@@ -11,6 +11,9 @@ describe('Indice Equilibrio', function() {
     it('retorna primeiro indice equilibrio quando existir um', function() {
       var input = [-7,1,5,2,-4,3,0];
       assert.equal(3, indiceEquilibrio.process(input));
+
+      input = [-7,1,5,-2,4,-3,9,1,-1,8];
+      assert.equal(7, indiceEquilibrio.process(input));
     });
 
     it('retorna o n-1 quando a soma a esqueda é zero', function() {
@@ -19,7 +22,7 @@ describe('Indice Equilibrio', function() {
     });
 
     it('retorna 0 quando a soma a direita é zero', function() {
-      input = [0,3,-1,-1,-1,1,1,2];
+      input = [0,3,-1,-1,-1,1,1,-2];
       assert.equal(0, indiceEquilibrio.process(input));
     });
   });

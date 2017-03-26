@@ -1,0 +1,14 @@
+{
+  "name": "indice-equilibrio",
+  "version": "0.0.1",
+  "description": "Desafio Programacao",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Fernando Kakimoto",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
